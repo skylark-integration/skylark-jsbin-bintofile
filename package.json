@@ -1,0 +1,28 @@
+{
+  "name": "skylark-jsbin-bintofile",
+  "description": "A version of jsbin-bintofile playground) that ported to running on skylarkjs.",
+  "version": "0.9.0",
+  "keywords": [
+    "jsbin-bintofile",
+    "playground"
+  ],
+  "homepage": "https://github.com/skylark-integration/skylark-jsbin-bintofile/",
+  "author": "Hudaokeji, Inc.",
+  "scripts": {
+    "build": "slib build ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skylark-integration/skylark-jsbin-bintofile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skylark-integration/skylark-jsbin-bintofile/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "skylark-langx": "git+https://github.com/skylark-langx/skylark-langx.git#master"
+  },
+  "engines": {
+    "node": ">=0.10.1"
+  }
+}
